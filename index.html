@@ -5,12 +5,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.2.45/css/materialdesignicons.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>My app</title>
+    <style>
+        :root {
+            --esj-primary-color: #849539
+        }
+    </style>
 </head>
 
 <body>
-    <h1 class="heading">My app</h1>
+    <footer class="esj-footer">
+        <div class="esj-footer__container">
+            <div class="esj-footer__payments">
+                <p class="esj-footer__payments-title">Formas de pagamento</p>
+                <ul class="esj-footer__payments-logos">
+                    <li class="esj-footer__payments-logo">
+                        <img src="./images/payments/visa.svg" />
+                    </li>
+                    <li class="esj-footer__payments-logo">
+                        <img src="./images/payments/mastercard.svg" />
+                    </li>
+                    <li class="esj-footer__payments-logo">
+                        <img src="./images/payments/elo.svg" />
+                    </li>
+                    <li class="esj-footer__payments-logo">
+                        <img src="./images/payments/hipercard.svg" />
+                    </li>
+                    <li class="esj-footer__payments-logo">
+                        <img src="./images/payments/amex.svg" />
+                    </li>
+                    <li class="esj-footer__payments-logo">
+                        <img src="./images/payments/boleto.svg" />
+                    </li>
+                </ul>
+            </div>
+            <div class="esj-footer__divider"></div>
+            <div class="esj-footer__content">
+                <div class="esj-footer__content-location">
+                    <!-- <p class="esj-footer__content-title">Onde estamos</p> -->
+                    <div class="esj-footer__content-location-map">
+                        <iframe width="600" height="500" src="https://maps.google.com/maps?q=Av.%20Campanella%2C%20762%20-%20Itaquera%2C%20S%C3%A3o%20Paulo&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    </div>
+                </div>
+                <div class="esj-footer__content-contact">
+                    <p class="esj-footer__content-title">Contatos</p>
+                    <p class="esj-footer__content-contact-phone">(11) 2386-9258</p>
+                    <p class="esj-footer__content-contact-address">Av. Campanellla, 762 - Itaquera, São Paulo, SP</p>
+                    <p class="esj-footer__content-contact-hour">Atendimendo de segunda a sábado: 9h às 18h</p>
+                    <p class="esj-footer__content-title">Redes sociais</p>
+                    <ul class="esj-footer__content-contact-socials">
+                        <li class="esj-footer__content-contact-socials-item">
+                            <a href="">
+                                <i class="mdi mdi-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="esj-footer__content-contact-socials-item">
+                            <a href="">
+                                <i class="mdi mdi-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="esj-footer__content-contact-socials-item">
+                            <a href="">
+                                <i class="mdi mdi-whatsapp"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
-
 </html>
